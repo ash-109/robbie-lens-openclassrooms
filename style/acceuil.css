@@ -1,0 +1,138 @@
+@import url('/style/style.css');
+
+
+  #acceuil{
+    padding: 70px 200px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  
+  }
+  .acceuil_intro_text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+  }
+  .acceuil img{
+    max-width: 100%;
+    height: auto;
+  }
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    color: #f9f8ff;
+  }
+  
+  p{
+    font-size: 1.1em;
+    color: #f9f8ff;
+  }
+  li{
+  font-size: 1em;
+  font-family: 'Manrope';
+  }
+  
+  header,
+  footer {
+    background-color: white;
+    padding: 20px 50px;
+  }
+  
+  .cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    padding: 20px 30px;
+    text-align: center;
+    width: 60%;
+  }
+  
+  nav a:hover {
+    color:rgb(136, 119, 119);
+    text-decoration: underline #a5b4fc;
+    text-underline-offset: 0.3em ;
+  }
+  
+  .cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    color: white;
+      text-decoration: none;
+
+  }
+  #dernier_projet{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dernier_projet_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin: 4.125rem auto;
+  }
+
+
+.dernier_projet_container img {
+    max-width: 100%; /* Les images ne dépasseront pas la largeur de la div */
+    height: auto; /* Garder le rapport hauteur/largeur des images */
+}
+
+  #dernier_projet h2{
+    margin-top: 5rem;
+    text-align: center;
+    color: #1f2039;
+  }
+  #dernier_projet a{
+    
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: #f9f8ff;
+    border-radius: 50px;
+    padding: 15px 50px;
+    margin-bottom: 7.5rem;
+    text-transform: uppercase;
+  }
+  
+  #contact{
+    background: #1f2039;	
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+  #contact h2{
+    color: #a5b4fc;
+  }
+ #contact form{
+ /* display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: auto; */
+ }
+  #contact form label{
+    color: #f9f8ff;
+  } 
+  
+  #contact form button{
+    background: linear-gradient(#8e86b5, #acaeed);
+
+    color: #f9f8ff;
+    border-radius: 50px;
+    padding: 20px 60px;
+}
+ #contact form button:hover{
+    background: linear-gradient(#696484, #8788ba);
+cursor: pointer;
+ }

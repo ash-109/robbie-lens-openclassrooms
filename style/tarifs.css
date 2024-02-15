@@ -1,0 +1,95 @@
+.prestations_header a{
+    color: #fff;
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    padding: 15px 40px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+#prestations{
+
+    margin: 9.125em auto auto auto;
+width: 70%;
+}
+
+.prestations_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+.prestations_header h1{
+    font-weight: normal;
+}
+.prestations_offre{
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+
+}
+.prestations_offre div{
+    border-right: 1px solid #A5B4FC ;
+    border-bottom: 1px solid #A5B4FC ;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2.4em;
+   
+}
+.prestations_offre div h4{
+    color: #A5B4FC;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.prestations_offre .description{
+    color: #F9F8FF;
+    font-size: 0.9rem;
+    margin-bottom: 2em;
+    line-height: 1.7em;
+}
+.prestations_offre .prix{
+    color: #A5B4FC;
+    margin-bottom: 1em;
+
+}
+.prestations_offre .information{
+    font-size: 0.7em;
+    margin-bottom: 3.4em;
+}
+
+#studio_pro{
+    margin: 5.3em auto 23.4em auto;
+    width: 70%;
+}
+#studio_pro h2{
+    color: #A5B4FC;
+    font-size: 2.2em;
+    margin-bottom: 2.375rem;
+    
+}
+#studio_pro table{
+    width: 100%;
+}
+#studio_pro table,td,th,tr{
+    border: 1px solid #A5B4FC;
+    border-collapse: collapse;
+    color: #F9F8FF;
+    text-align: center;
+    vertical-align: middle;
+}
+#studio_pro table thead th {
+    padding: 1em;
+    font-size: 1em;
+}
+.width20{
+    width: 20%;
+}
+.width40{
+    width: 40%;
+}
+#studio_pro table  td{
+    padding: 2.5rem ;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
