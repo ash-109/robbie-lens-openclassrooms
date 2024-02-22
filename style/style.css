@@ -2,7 +2,7 @@
 @import url('/style/style.css');
 @import url('/style/acceuil.css');
 @import url('/style/tarifs.css');
-
+@import url('/style/portfolio.css');
 
 * {
   box-sizing: border-box;
@@ -15,8 +15,14 @@ body {
   font-size: 1em;
   background-color: #1f2039;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
+header,
+  footer {
+    background-color: white;
+    padding: 20px 50px;
+  }
 header nav,footer{
 display: flex;
 justify-content: space-between;
@@ -30,6 +36,19 @@ a {
 }
 header nav a{
   margin-left: 4.5rem;
+}
+header nav a:hover {
+  color:rgb(136, 119, 119);
+  text-decoration: underline #a5b4fc;
+  text-underline-offset: 0.3em ;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
 }
 footer .socials img{
   margin-left: 1.8em;

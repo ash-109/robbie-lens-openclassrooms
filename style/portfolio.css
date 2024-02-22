@@ -1,0 +1,45 @@
+#title{
+    /* width: 100%; */
+    height: 20rem;
+    position: relative;
+}
+#title h1{
+position: absolute;
+top:8.75rem;
+left: 10.5rem;
+}
+#gallery{
+    background: white;
+    padding-top: 3.3rem;
+    padding-bottom: 8.4rem;
+}
+#gallery h2{
+    color: #000;
+    font-weight: normal;
+    font-size: 1.875rem;
+    margin-bottom: 3.3rem;
+}
+.paysages{
+    width: 70%;
+margin-left: 10.5rem;
+}
+
+.grid_gallery{
+    display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 1rem;
+/* justify-items: center; */
+
+}
+.paysages_gallery img, .portraits_gallery img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+
+}
+.portraits{
+    width: 70%;
+    margin: 3.3rem auto auto 10.5rem;
+
+}

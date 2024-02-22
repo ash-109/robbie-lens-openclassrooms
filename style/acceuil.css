@@ -23,11 +23,7 @@
     font-style: normal;
   }
   
-  h1 {
-    font-size: 3.5em;
-    color: #a5b4fc;
-    font-family: 'Montserrat', sans-serif;
-  }
+
   
   h2 {
     color: #f9f8ff;
@@ -42,11 +38,6 @@
   font-family: 'Manrope';
   }
   
-  header,
-  footer {
-    background-color: white;
-    padding: 20px 50px;
-  }
   
   .cta {
     background: linear-gradient(#8e86b5, #acaeed);
@@ -57,11 +48,6 @@
     width: 60%;
   }
   
-  nav a:hover {
-    color:rgb(136, 119, 119);
-    text-decoration: underline #a5b4fc;
-    text-underline-offset: 0.3em ;
-  }
   
   .cta:hover {
     background: linear-gradient(#696484, #8788ba);
@@ -86,9 +72,8 @@
 
 
 .dernier_projet_container img {
-    max-width: 100%; /* Les images ne dépasseront pas la largeur de la div */
-    height: auto; /* Garder le rapport hauteur/largeur des images */
-}
+    max-width: 100%; 
+    height: auto; }
 
   #dernier_projet h2{
     margin-top: 5rem;
