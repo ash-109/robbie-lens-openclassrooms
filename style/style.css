@@ -21,7 +21,7 @@ body {
 header,
   footer {
     background-color: white;
-    padding: 20px 50px;
+    padding: 1.25rem 3.125rem;
   }
 header nav,footer{
 display: flex;
@@ -48,6 +48,10 @@ h1 {
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+
+}
+p{
+  color: #f9f8ff;
 
 }
 footer .socials img{

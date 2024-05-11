@@ -29,7 +29,6 @@ margin-left: 10.5rem;
 grid-template-columns: repeat(3,1fr);
 grid-template-rows: repeat(2,1fr);
 gap: 1rem;
-/* justify-items: center; */
 
 }
 .paysages_gallery img, .portraits_gallery img{
